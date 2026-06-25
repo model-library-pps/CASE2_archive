@@ -1,0 +1,21 @@
+model2.for(69) : Info: This variable has not been used.   [FILEI4]
+     &                   FILEIT, FILEI1, FILEI2, FILEI3, FILEI4, FILEI5,
+---------------------------------------------------------^
+model2.for(69) : Info: This variable has not been used.   [FILEI5]
+     &                   FILEIT, FILEI1, FILEI2, FILEI3, FILEI4, FILEI5,
+-----------------------------------------------------------------^
+model2.for(71) : Info: This variable has not been used.   [YEAR]
+     &                   DOY   , IDOY  , YEAR  , IYEAR,
+-----------------------------------------^
+model2.for(72) : Info: This variable has not been used.   [FINTIM]
+     &                   TIME  , STTIME, FINTIM, DELT ,
+-----------------------------------------^
+model2.for(74) : Info: This variable has not been used.   [LONG]
+     &                   LAT   , LONG  , ELEV  , WSTAT , WTRTER,
+---------------------------------^
+model2.for(74) : Info: This variable has not been used.   [ELEV]
+     &                   LAT   , LONG  , ELEV  , WSTAT , WTRTER,
+-----------------------------------------^
+model2.for(104) : Info: This variable has not been used.   [WCWET]
+      REAL WCWET
+-----------^

@@ -1,0 +1,19 @@
+************************************************************************
+* CONTROL.DAT                                                          *
+*                                                                      *
+* To be used with CASE2 (CAcao Simulation Engine), version 2.2         *
+* This data file contains the names of the data files used by CASE2.   *
+*                                                                      *
+************************************************************************
+
+************************************************************************
+* THE INFORMATION IN THIS DATA FILE SHOULD NOT BE CHANGED              *
+************************************************************************
+
+  FILEON = 'RES.DAT'       ! Output file
+  FILEOL = 'MODEL.LOG'     ! Log file
+  FILEIR = 'RERUNS.DAT'    ! Reruns file
+  FILEIT = 'TIMER.DAT'     ! File with timer data and weather data
+  FILEI1 = 'PLANT.DAT'     ! Cacao plant data file
+  FILEI2 = 'SOIL.DAT'      ! Soil data file
+  FILEI3 = 'BASIC.DAT'     ! Data file with values that can be changed 

@@ -1,0 +1,439 @@
+************************************************************************
+* TIMER.DAT                                                            *
+*                                                                      *
+* To be used with CASE2 (CAcao Simulation Engine), version 2.2         *
+* This data	file contains timer and weather information used by CASE2  *
+*                                                                      *
+************************************************************************
+
+************************************************************************
+* INFORMATION IN PART A OF THIS THIS DATA FILE MAY BE CHANGED          *
+************************************************************************
+
+!======================================================================!
+!                                                                      !
+! PART A. Location specifications.                                     !
+!         Information may be added to this part of the file.           !  
+!         Please follow the instructions in the User's Manual          !
+!                                                                      !
+!======================================================================!
+
+
+!----------------------------------------------------------------------!
+! Explanation of parameters:     
+! WTRDIR  = Directory of weather data
+! CLFILE  = File with weather data when IWEATH = 0,1 (WOFOST or 
+!           longterm weather data)
+! IWEATH  = Flag indicating the weather system used: 
+!           Possible values: 0,1 for Wofost monthly weather; 
+!           2 for Cabo daily weather
+! CNTR    = Country of weather data; only to be used in combination 
+!           with Cabo daily weather (IWEATH = 2)
+! ISTN    = Station number of weather data; only to be used 
+!           in combination with Cabo daily weather (IWEATH = 2)
+! IRNDAT  = Flag indicating rainfall system when IWEATH = 0, 1:
+!           Possible values: 0 for generated rain, 
+!           1 for distributed rain, 2 for observed rain.
+! STRTYR1 = First year for which weather data are available
+! ENDYR1  = Last year for which weather data are available
+!----------------------------------------------------------------------!
+
+!---------------------------------!
+! Daily or monthly weather data   !
+!---------------------------------!
+
+* LOCATION 1
+* Brazil, Maceio (Alagoas) 1961  1969 d
+  WTRDIR1 = 'c:\case2\weather\daily\'
+  CNTR1   = 'brazil'
+  ISTN1   = 2
+  IWEATH1 = 2
+  IRNDAT1 = 2
+  STRTYR1 = 1961
+  ENDYR1  = 1969
+
+* LOCATION 2
+* Costa Rica  El Carmen        1974  1991 d
+  WTRDIR2 = 'c:\case2\weather\daily\'
+  CNTR2   = 'cr'
+  ISTN2   = 1
+  IWEATH2 = 2
+  IRNDAT2 = 2
+  STRTYR2 = 1974
+  ENDYR2  = 1991
+
+* LOCATION 3
+* Costa Rica	La Lola	     1973	1990	18	d
+  WTRDIR3 = 'c:\case2\weather\daily\'
+  CNTR3   = 'cr'
+  ISTN3   = 4
+  IWEATH3 = 2
+  IRNDAT3 = 2
+  STRTYR3 = 1973
+  ENDYR3  = 1990
+
+* LOCATION 4
+* Costa Rica	La Mola	     1980	1989	10	d
+  WTRDIR4 = 'c:\case2\weather\daily\'
+  CNTR4   = 'cr'
+  ISTN4   = 6
+  IWEATH4 = 2
+  IRNDAT4 = 2
+  STRTYR4 = 1980
+  ENDYR4  = 1989
+
+* LOCATION 5
+* Costa Rica, Puerto Limon 1970	1990	21	d
+  WTRDIR5 = 'c:\case2\weather\daily\'
+  CNTR5   = 'cr'
+  ISTN5   = 5
+  IWEATH5 = 2
+  IRNDAT5 = 2
+  STRTYR5 = 1970
+  ENDYR5  = 1990
+
+* LOCATION 6
+* Ghana	Tafo	    1963	1997	35	m
+  WTRDIR6 = 'c:\case2\weather\monthly\'
+  CLFILE6 = 'ghataf.wof'
+  IWEATH6 = 1
+  IRNDAT6 = 1
+  STRTYR6 = 1963
+  ENDYR6  = 1997
+
+* LOCATION 7
+* Indonesia	Bah Lias 	 1979	1993	15	m
+  WTRDIR7 = 'c:\case2\weather\monthly\'
+  CLFILE7 = 'idnbhl.wof'
+  IWEATH7 = 1
+  IRNDAT7 = 1
+  STRTYR7 = 1979
+  ENDYR7  = 1993
+
+* LOCATION 8
+* Ivory Coast	Abidjan	     1987	1996	10	m
+  WTRDIR8 = 'c:\case2\weather\monthly\'
+  CLFILE8 = 'civabi.wof'
+  IWEATH8 = 1
+  IRNDAT8 = 1
+  STRTYR8 = 1987
+  ENDYR8  = 1996
+
+* LOCATION 9
+* Ivory Coast	Adiake	     1987	1995	9	m
+  WTRDIR9 = 'c:\case2\weather\monthly\'
+  CLFILE9 = 'civadi.wof'
+  IWEATH9 = 1
+  IRNDAT9 = 1
+  STRTYR9 = 1987
+  ENDYR9  = 1995
+
+* LOCATION 10
+* Ivory Coast	Daloa	1987	1996	10	m
+  WTRDIR10 = 'c:\case2\weather\monthly\'
+  CLFILE10 = 'civdal.wof'
+  IWEATH10 = 1
+  IRNDAT10 = 1
+  STRTYR10 = 1987
+  ENDYR10  = 1996
+
+* LOCATION 11
+* Ivory Coast	Dimbokro	 1987	1996	10	m
+  WTRDIR11 = 'c:\case2\weather\monthly\'
+  CLFILE11 = 'civdim.wof'
+  IWEATH11 = 1
+  IRNDAT11 = 1
+  STRTYR11 = 1987
+  ENDYR11  = 1996
+
+* LOCATION 12
+* Ivory Coast	Gagnoa	     1986	1997	12	m
+  WTRDIR12 = 'c:\case2\weather\monthly\'
+  CLFILE12 = 'civgag.wof'
+  IWEATH12 = 1
+  IRNDAT12 = 1
+  STRTYR12 = 1986
+  ENDYR12  = 1997
+
+* LOCATION 13
+* Ivory Coast	Man	         1987	1996	10	m
+  WTRDIR13 = 'c:\case2\weather\monthly\'
+  CLFILE13 = 'civman.wof'
+  IWEATH13 = 1
+  IRNDAT13 = 1
+  STRTYR13 = 1987
+  ENDYR13  = 1996
+
+* LOCATION 14
+* Ivory Coast	San  Pedro	 1987	1996	10	m
+  WTRDIR14 = 'c:\case2\weather\monthly\'
+  CLFILE14 = 'civsan.wof'
+  IWEATH14 = 1
+  IRNDAT14 = 1
+  STRTYR14 = 1987
+  ENDYR14  = 1996
+
+* LOCATION 15
+* Malaysia	Tawau (Sabah)	1951	1993	43	m
+  WTRDIR15 = 'c:\case2\weather\monthly\'
+  CLFILE15 = 'mystab.wof'
+  IWEATH15 = 1
+  IRNDAT15 = 1
+  STRTYR15 = 1951
+  ENDYR15  = 1993
+
+* LOCATION 16
+* Malaysia	Telok Chengai1978	1988	11	m
+  WTRDIR16 = 'c:\case2\weather\monthly\'
+  CLFILE16 = 'mals002a.wof'
+  IWEATH16 = 1
+  IRNDAT16 = 1
+  STRTYR16 = 1978
+  ENDYR16  = 1988
+
+* LOCATION 17
+* Papua New Guinea	Dami 1970	1991	22	d
+  WTRDIR17 = 'c:\case2\weather\daily\'
+  CNTR17   = 'png'
+  ISTN17   = 1
+  IWEATH17 = 2
+  IRNDAT17 = 2
+  STRTYR17 = 1970
+  ENDYR17  = 1991
+
+* LOCATION 18
+* Philippines	IRRI         1979	1995	17	d
+  WTRDIR18 = 'c:\case2\weather\daily\'
+  CNTR18   = 'phil'
+  ISTN18   = 1
+  IWEATH18 = 2
+  IRNDAT18 = 2
+  STRTYR18 = 1979
+  ENDYR18  = 1995
+
+* LOCATION 19
+* < specify location name and period of weather data here >
+  WTRDIR19 = ' '
+  CNTR19   = ' '
+  CLFILE19 = ' '
+  ISTN19   = 0
+  IWEATH19 = 0
+  IRNDAT19 = 0
+  STRTYR19 = 0
+  ENDYR19  = 0
+
+* LOCATION 20
+* < specify location name and period of weather data here >
+  WTRDIR20 = ' '
+  CNTR20   = ' '
+  CLFILE20 = ' '
+  ISTN20   = 0
+  IWEATH20 = 0
+  IRNDAT20 = 0
+  STRTYR20 = 0
+  ENDYR20  = 0
+
+* LOCATION 21
+* < specify location name and period of weather data here >
+  WTRDIR21 = ' '
+  CNTR21   = ' '
+  CLFILE21 = ' '
+  ISTN21   = 0
+  IWEATH21 = 0
+  IRNDAT21 = 0
+  STRTYR21 = 0
+  ENDYR21  = 0
+
+* LOCATION 22
+* < specify location name and period of weather data here >
+  WTRDIR22 = ' '
+  CNTR22   = ' '
+  CLFILE22 = ' '
+  ISTN22   = 0
+  IWEATH22 = 0
+  IRNDAT22 = 0
+  STRTYR22 = 0
+  ENDYR22  = 0
+
+* LOCATION 23
+* < specify location name and period of weather data here >
+  WTRDIR23 = ' '
+  CNTR23   = ' '
+  CLFILE23 = ' '
+  ISTN23   = 0
+  IWEATH23 = 0
+  IRNDAT23 = 0
+  STRTYR23 = 0
+  ENDYR23  = 0
+
+!---------------------------------!
+! Long-term weather data          !
+!---------------------------------!
+
+* LOCATION 51
+* Brazil	Belem
+  CLFILE51 = 'Bra9.ltm'
+
+* LOCATION 52
+* Brazil	Salvador
+  CLFILE52 = 'Bra99.ltm'
+
+* LOCATION 53
+* Brazil	Vitoria
+  CLFILE53 = 'Bra144.ltm'
+
+* LOCATION 54
+* Cameroon	Batouri
+  CLFILE54 = 'Cmr7.ltm'
+
+* LOCATION 55
+* Cameroon	Douala
+  CLFILE55 = 'Cmr6.ltm'
+
+* LOCATION 56
+* Colombia	Andagoya
+  CLFILE56 = 'Col16.ltm'
+
+* LOCATION 57
+* Colombia	Villavicencio
+  CLFILE57 = 'Col27.ltm'
+
+* LOCATION 58
+* Ghana	Hon
+  CLFILE58 = 'Gha10.ltm'
+
+* LOCATION 59
+* Ghana	Kumasi
+  CLFILE59 = 'Gha8.ltm'
+
+* LOCATION 60
+* Ghana	Tafo
+  CLFILE60 = 'Gha99.ltm'
+
+* LOCATION 61
+* Cote d'Ivoire	Abidjan
+  CLFILE61 = 'Civ8.ltm'
+
+* LOCATION 62
+* Cote d'Ivoire	Gagnoa
+  CLFILE62 = 'Civ7.ltm'
+
+* LOCATION 63
+* Ivory Coast	Man
+  CLFILE63 = 'Civ5.ltm'
+
+* LOCATION 64
+* Malaysia	Kuala Trengganu
+  CLFILE64 = 'Mys8.ltm'
+
+* LOCATION 65
+* Malaysia	Penang
+  CLFILE65 = 'Mys1.ltm'
+
+* LOCATION 66
+* Malaysia	Sandakan
+  CLFILE66 = 'Mys37.ltm'
+
+* LOCATION 67
+* Malaysia	Tawau
+  CLFILE67 = 'Mys99.ltm'
+
+* LOCATION 68
+* Papua New Guinea	Madang
+  CLFILE68 = 'Png3.ltm'
+
+* LOCATION 69
+* Papua New Guinea	Rabaul
+  CLFILE69 = 'Png9.ltm'
+
+* LOCATION 70
+* < specify location name and period of weather data here >
+  CLFILE70 = ' '
+
+* LOCATION 71
+* < specify location name and period of weather data here >
+  CLFILE71 = ' '
+
+* LOCATION 72
+* < specify location name and period of weather data here >
+  CLFILE72 = ' '
+
+* LOCATION 73
+* < specify location name and period of weather data here >
+  CLFILE73 = ' '
+
+* LOCATION 74
+* < specify location name and period of weather data here >
+  CLFILE74 = ' '
+
+* LOCATION 75
+* < specify location name and period of weather data here >
+  CLFILE75 = ' '
+
+!======================================================================!
+!                                                                      !
+! PART B. NO changes may be made to this part of the data file.        !  
+!             
+!======================================================================!
+
+!---------------------------------!
+! Output                          !
+!---------------------------------!
+
+* per yr
+PRSEL1 = 'YEAR','ageyr','YRAIN','YRDD','YTRANS','WTOT','WTOTPP','WRT','WLV','WWD','WTRT','WLRT','WPD','YGPHOT','YGTOT','YYLDPD','YYLDBN','YLVD','YWDD','WPDCUM','WBNCUM','YHI','YHINCR','YMNBH','YMNLAI','YMNIPOD','YHARPD','YRDEFF','YRNEFF','YNLOSS','YPLOSS','YKLOSS','<TABLE>'
+
+* per 10 days
+PRSEL2 = 'year','doy','ageyr','tmav','pcew','lai(1)','WTOT','wtotpp','wrt','wlrt','wtrt','wlv', 'wwd', 'wpd','WPDCUM','WBNCUM','D10GTOT','D10YLDPD','D10YLDBN','D10RAIN','D10RDD','D10HARPD','<table>'
+
+* per day
+PRSEL3 = 'year','doy','ageyr','rdd','rain','tmav','atrans','ptrans','pcew','frabs(1)','lai(1)','WTOT','wtotpp','wrt','wlrt','wtrt','wlv', 'wwd', 'wpd', 'gphot','maint','GTOT','gpd','glv','grt','glrt','gtrt','GWD','GTOT1','GTOT2','FLV', 'FWD','FPD', 'FTRT','FLRT','dwd','dlrt','dlv','dlv1','dlv2','ltrt','yldpd','YLDBN','BHYLD','harpods','WPDCUM','WBNCUM','<table>'
+
+* years and days for which output is generated in case of annual output
+IOBSD  = 1000, 365
+         1956, 366, 1957, 365, 1958, 365, 1959, 365, 1960, 366,
+         1961, 365, 1962, 365, 1963, 365, 1964, 366, 1965, 365,
+         1966, 365, 1967, 365, 1968, 366, 1969, 365, 1970, 365,
+         1971, 365, 1972, 366, 1973, 365, 1974, 365, 1975, 365,
+         1976, 366, 1977, 365, 1978, 365, 1979, 365, 1980, 366,
+         1981, 365, 1982, 365, 1983, 365, 1984, 366, 1985, 365,
+         1986, 365, 1987, 365, 1988, 366, 1989, 365, 1990, 365,
+         1991, 365, 1992, 366, 1993, 365, 1994, 365, 1995, 365,
+         1996, 366, 1997, 365, 1998, 365, 1999, 365, 2000, 366,
+         2001, 365, 2002, 365
+
+                           ! List of observation data for which output
+                           ! is required. The list should consist of
+                           ! pairs of <year>,<day> combinations.
+
+IPFORM = 5                 ! Format of output file:
+                           !    0 = no output table,
+                           !    4 = normal table, 
+                           !    5 = tab-delimited (Excel),
+                           !    6 = TTPLOT format
+COPINF = 'N'               ! Switch variable what should be done with
+                           ! the inputfiles:
+                           !   'N' = do not copy inputfiles into
+                           !         outputfile,
+                           !   'Y' = copy inputfiles into outputfile
+DELTMP = 'Y'               ! Switch variable what should be done with
+                           ! the temporary and binary output file:
+                           !   'N' = do not delete,
+                           !   'Y' = delete
+STTIME = 1.                ! Start day of simulation
+DELT   = 1.                ! Time step of integration
+
+
+* Radiation parameter
+  FRPAR = 0.5
+
+IFLAG  = 1101              ! Indicates where weather error and warnings
+                           ! go (1101 means errors and warnings to log
+                           ! file, errors to screen, see FSE manual)
+
+PLTMOD = 'CACAO'
+* PLTMOD = 'NO CROP'
+
+ETMOD = 'PENMAN'
+* ETMOD = 'MAKKINK'                          
+* ETMOD = 'PRIESTLEY/TAYLOR'

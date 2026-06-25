@@ -1,0 +1,4 @@
+Microsoft (R) Incremental Linker Version 6.00.8447
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
+/OUT:Case2.exe "model2.obj" "Fse.obj" "case2.obj" "ttutil.lib" "drivers.lib" "cacao.lib" 

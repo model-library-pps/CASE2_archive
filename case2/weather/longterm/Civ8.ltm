@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Cote d'Ivoire
+*   Station: Abidjan
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 003 56 W
+*  Latitude: 05 15 N
+* Elevation: 6 m.
+*  WMO-code: 65.5780
+*  Comments: Number of rain days added from Mueller database						
+*            February 2002, Pieter Zuidema						
+*						
+*  Columns:						
+*  ========						
+*  minimum temperature (degrees Celsius)						
+*  maximum temperature (degrees Celsius)						
+*  irradiation (MJ m-2 d-1)						
+*  vapour pressure (kPa)						
+*  mean wind speed (m s-1)						
+*  precipitation (mm month-1)						
+*  number of rain days						
+*---------------------------------------------------------*						
+Abidjan Ivory Coast 
+1000   5.3    6.  0.00 0.00
+   23.7   30.0 17.575   30.2    0.7    20.     2.
+   24.8   30.2 19.307   31.5    1.1    51.     4.
+   24.6   30.3 19.939   31.1    1.2   113.     8.
+   24.3   30.3 19.729   31.0    1.2   155.    11.
+   24.1   29.8 18.148   30.5    0.8   324.    17.
+   23.5   28.3 14.799   29.5    1.2   590.    22.
+   24.0   26.5 15.369   27.6    1.5   275.    16.
+   21.8   26.2 14.851   27.0    1.1    29.     2.
+   22.1   26.6 15.884    2.7    1.1    63.     5.
+   23.7   28.5 18.835   29.0    1.4   177.    12.
+   24.5   29.7 18.799   29.0    1.1   173.    12.
+   23.7   29.5 17.214   29.0    0.9    95.     7.

@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Cameroon
+*   Station: Batouri
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 014 22 E
+*  Latitude: 04 28 N
+* Elevation: 656 m.
+*  WMO-code: 64.9310
+*  Comments: Number of rain days added from Mueller database
+*            February 2002, Pieter Zuidema
+*
+*  Columns:
+*  ========
+*  minimum temperature (degrees Celsius)
+*  maximum temperature (degrees Celsius)
+*  irradiation (MJ m-2 d-1)
+*  vapour pressure (kPa)
+*  mean wind speed (m s-1)
+*  precipitation (mm month-1)
+*  number of rain days
+*---------------------------------------------------------*
+Batouri	Cameroon					
+1000	4.47	656.	0.00	0.00		
+17.0	30.0	16.329	2.15	0.4	31.	3.
+18.0	31.0	18.171	2.18	0.6	50.	5.
+20.0	31.0	17.585	2.38	0.6	119.	9.
+20.0	31.0	18.422	2.45	0.8	153.	12.
+19.0	30.0	18.087	2.45	0.6	184.	14.
+19.0	29.0	15.659	2.38	0.4	173.	14.
+19.0	27.0	14.277	2.31	0.4	112.	10.
+19.0	27.0	14.444	2.31	0.6	161.	12.
+19.0	28.0	15.659	2.31	0.8	217.	18.
+19.0	29.0	16.454	2.33	0.3	274.	22.
+18.0	29.0	17.459	2.35	0.8	117.	11.
+17.0	30.0	16.873	2.17	0.4	34.	3.

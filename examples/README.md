@@ -1,0 +1,2 @@
+**Applications & Use**\
+This model is produced within the framework of a research programme on modelling of growth, yield and quality of cocoa. The overall objective of this programme is to increase the understanding of cocoa production in relation to environmental conditions and cropping systems. A better understanding of cocoa production systems may assist to improve cocoa production systems in producing countries.

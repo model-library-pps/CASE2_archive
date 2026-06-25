@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Colombia
+*   Station: Arauca
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 070 44 W
+*  Latitude: 07 04 N
+* Elevation: 122 m.
+*  WMO-code: 80.0990
+*  Comments: Number of rain days added from Mueller database						
+*            February 2002, Pieter Zuidema						
+*						
+*  Columns:						
+*  ========						
+*  minimum temperature (degrees Celsius)						
+*  maximum temperature (degrees Celsius)						
+*  irradiation (MJ m-2 d-1)						
+*  vapour pressure (kPa)						
+*  mean wind speed (m s-1)						
+*  precipitation (mm month-1)						
+*  number of rain days						
+*---------------------------------------------------------*						
+Arauca	Colombia					
+1000	7.07	122.	0.00	0.00		
+22.1	32.1	16.973	2.33	1.5	12.	0.
+22.2	32.9	17.656	2.23	1.3	8.	1.
+23.1	32.8	17.769	2.27	1.0	24.	3.
+23.5	31.7	16.341	2.66	0.8	191.	9.
+22.9	30.1	17.350	2.80	0.6	249.	14.
+22.6	29.5	16.961	2.77	0.6	289.	15.
+22.4	29.0	17.509	2.71	0.6	273.	15.
+22.4	30.5	16.048	2.77	0.8	219.	11.
+22.5	30.8	17.559	2.77	0.6	214.	10.
+22.8	31.3	17.614	2.80	0.8	200.	9.
+22.6	31.7	15.826	2.89	0.9	87.	6.
+22.7	32.1	16.534	2.66	1.0	31.	3.

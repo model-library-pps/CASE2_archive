@@ -1,0 +1,235 @@
+************************************************************************
+* File name: BASIC.DAT                                                 *
+*                                                                      *
+* Use      : With CASE2 (Cacao Simulation Engine), version 2.2         *
+* Author(s): Pieter Zuidema                                            *
+* Date     : January 2002                                              *
+* Purpose  : Contains values of input parameters that can be changed.  *
+*            For instance, location, and planting density              *
+************************************************************************
+
+
+!======================================================================!
+!                                                                      !
+! PART A. Specify information on location, simulation duration,        !  
+!         soil type, production level and output frequency here.       !
+!                                                                      !
+!======================================================================!
+
+!---------------------------------!
+! Location                        !
+!---------------------------------!
+
+* Specify location number 
+* Possible values: 
+* 1-50 for daily or monthly weather data (1-18 are included with program)
+* >50  for long-term weather data (51-69 are included with program)
+* For location numbers see the table at the end of this file or in the Manual. 
+  LOCATION = 15
+
+!---------------------------------!
+! Start and duration of simulation!
+!---------------------------------!
+
+* Specify the start year of the simulation (IYEAR) and the number of 
+* years for which simulations should be carried out.
+* Possible values for IYEAR: 
+* for daily/monthly weather data: 
+*     Years for which weather data are available. Check the availability 
+*     of weather data for the location in Table 5.1 in the User's or the 
+*     table at the end of this file.
+* for long-term weather data:     
+*     enter the value 1000
+*
+* Possible values for NRYEARS: 
+* for daily/monthly weather data: 
+*     This depends on the period of years for which weather data are 
+*     available. Check this in Table 5.1 in the User's or the table at 
+*     the end of this file.
+* for long-term weather data:
+*     any period of years
+  IYEAR   = 1983
+  NRYEARS = 11              ! [y]
+
+!---------------------------------!
+! Output frequency                ! 
+!---------------------------------!
+
+* Specify the frequency at which output is generated in table and graph format.
+* Choose 1 for annual output; 2 for output every 10 days 
+* and 3 for daily output
+  OUTPUTFQ = 1
+
+!---------------------------------!
+! Soil type                       ! 
+!---------------------------------!
+
+* Specify the soil type.
+* Possible values: 1-3 for soil types included with the program 
+* (1=Loamy soil,2=Sandy soil, 3=Clayey soil); >3 for user-defined soils
+  SOILTYPE = 1
+
+!---------------------------------!
+! Potential or water-limited      ! 
+!---------------------------------!
+
+* Specify whether simulations should be carried out for a potential or water-limited
+* situation.
+* Possible values: 1=Potential; 2=Water-limited
+  PRODLEVL = 2
+
+
+!======================================================================!
+!                                                                      !
+! PART B. Specify cropping system characteristics here                 !  
+!         (planting density, cacao tree age and shade tree information)!  
+!                                                                      !
+!======================================================================!
+
+!---------------------------------!
+! Cropping system                 ! 
+!---------------------------------!
+
+* Specify density at which cacao trees are planted in trees per ha.
+* Possible values: 700.-2500. Note that number should be followed 
+* by a period sign (e.g. "1000."). 
+  NPL    = 1000.             ! [trees ha-1]
+
+* Specify leaf area index (LAI) of shade trees in ha leaf per ha ground. 
+* Possible values: 0.-3. Note that number should include 
+* a period sign (e.g. "1." or "0.2").
+  SLAI  = 0.2                ! [ha leaf ha-1 ground]
+
+* Specify extinction coefficient for shade trees.
+* Possible values: 0.4 - 0.8. 
+  SKDFL = 0.6                ! [-] 
+
+* Specify height of the shade tree canopy in m. SHGHL for height of lower 
+* canopy boundary; SHGHT for height of upper canopy boundary
+* Possible values: 0.-40. Note that number should include 
+* a period sign (e.g. "5." or "7.5").
+* Note that SHGHL should be less than SHGHT
+  SHGHL = 4.0                ! [m] Lower height of shade tree crowns
+  SHGHT = 10.                ! [m] Upper height of shade tree crowns
+
+!---------------------------------!
+! Cacao tree                      !
+!---------------------------------!
+
+* Specify height of the cacao tree in m: HGHL for height of lower canopy 
+* boundary; HGHT for height of upper canopy boundary
+* Possible values: 0.-20. Note that number should include 
+* a period sign (e.g. "1." or "2.5").
+* Note that HGHL should be less than HGHT
+  HGHL = 0.75                ![m]
+  HGHT = 3.50                ![m]
+
+* Specify whether tree size or age is used for initial input
+* Both plant size (biomass) and plant age can be used as input. 
+* The switch parameter SWINPUT determines which of the two is used.
+* Possible values: 1=age is used as input; 2=size is used as input.
+  SWINPUT = 1                ![-]
+
+* Specify initial tree age in years.
+* Note: this value is only used in case SWINPUT = 1
+* Possible values: 3. - 40. Note that number should include 
+* a period sign (e.g. "5." or "12.5").
+  AGEIYR  = 4.11             ! [y]
+
+* Specify initial tree size (biomass per tree).
+* Note: this value is only used in case SWINPUT = 2
+* Possible values: 18.5 - 70.0. Note that number should include 
+* a period sign (e.g. "20." or "22.5").
+  WTOTI   = 18.5            ![kg DW tree-1]; NOTE: Minimum size=18.5 kg 
+
+!------------------------------------!
+! Pod characteristics and processing !
+!------------------------------------!
+
+* Specify the fat content of nibs 
+* The standard value is 0.55 (Wood and Lass 1986)
+  FATCONTENT = 0.55                         ![-]
+
+* Specify the fraction of beans per pod 
+* The standard value is 0.55 
+  FBEANS = 0.55                             ![-]
+
+* Specify the pod index or pod value 
+* This is the number of pods needed for one kg of dry beans
+* The standard value is 30. 
+  PODVALUE = 30.                            ![kg-1 DW]
+
+* Specify the fermentation duration in hours.
+* The standard value is 5.(Humphries, 1944)
+  FMTDUR   = 5.                             ![d]
+
+* Specify the moisture content of the beans
+* The standard value is 0.075 (Wood & Lass 1985)
+  MOISTC  = 0.075                           ![-]
+
+
+!======================================================================!
+! TABLE WITH LOCATION NUMBERS AND PERIODS WITH AVAILABLE WEATHER DATA  ! 
+!======================================================================!
+
+!----------------------------------------------------------------------!
+! A.DAILY AND MONTHLY WEATHER DATA                                     !
+!----------------------------------------------------------------------!
+!LOCATION    Country            Site            Start Yr  End Yr Period!
+! 1          Brazil             Maceio (Alagoas)   1961      1969   8  !
+! 2          Costa Rica         El Carmen          1974      1991  18  !
+! 3          Costa Rica         La Lola            1973      1990  18  !
+! 4          Costa Rica         La Mola            1980      1989  10  !
+! 5          Costa Rica         Puerto Limon       1970      1990  21  !
+! 6          Ghana              Tafo               1963      1997  35  !
+! 7          Indonesia          Bah Lias           1979      1993  15  !
+! 8          Ivory Coast        Abidjan            1987      1996  10  !
+! 9          Ivory Coast        Adiake             1987      1995   9  !
+! 10         Ivory Coast        Daloa              1987      1996  10  !
+! 11         Ivory Coast        Dimbokro           1987      1996  10  !
+! 12         Ivory Coast        Gagnoa             1986      1997  12  !
+! 13         Ivory Coast        Man                1987      1996  10  !
+! 14         Ivory Coast        San  Pedro         1987      1996  10  !
+! 15         Malaysia           Tawau (Sabah)      1951      1993  43  !
+! 16         Malaysia           Telok Chengai      1978      1988  11  !
+! 17         Papua New Guinea   Dami               1970      1991  22  !
+! 18         Philippines    IRRI wet station site  1979      1995  17  !
+! 19         - user-defined -                                          !
+! 20         - user-defined -                                          !
+! 21         - user-defined -                                          !
+! 22         - user-defined -                                          !
+! 23         - user-defined -                                          !
+! etc.                                                                 !
+!----------------------------------------------------------------------!
+
+!----------------------------------------------------------------------!
+! B.LONG-TERM WEATHER DATA                                             !
+!----------------------------------------------------------------------!
+!LOCATION    Country            Site                                   !
+! 51         Brazil             Belem                                  !
+! 52         Brazil             Salvador                               !
+! 53         Brazil             Vitoria                                !
+! 54         Cameroon           Batouri                                !
+! 55         Cameroon           Douala                                 !
+! 56         Colombia           Andagoya                               !
+! 57         Colombia           Villavicencio                          !
+! 58         Ghana              Hon                                    !
+! 59         Ghana              Kumasi                                 !
+! 60         Ghana              Tafo                                   !
+! 61         Ivory Coast        Abidjan                                !
+! 62         Ivory Coast        Gagnoa                                 !
+! 63         Ivory Coast        Man                                    !
+! 64         Malaysia           Kuala Trengganu                        !
+! 65         Malaysia           Penang                                 !
+! 66         Malaysia           Sandakan                               !
+! 67         Malaysia           Tawau                                  !
+! 68         Papua New Guinea   Madang                                 !
+! 69         Papua New Guinea   Rabaul                                 !
+! 70         - user-defined -                                          !
+! 71         - user-defined -                                          !
+! 72         - user-defined -                                          !
+! 73         - user-defined -                                          !
+! 74         - user-defined -                                          !
+! etc.                                                                 !
+!----------------------------------------------------------------------!
+

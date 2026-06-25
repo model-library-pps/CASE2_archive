@@ -1,0 +1,123 @@
+************************************************************************
+* SOIL.DAT                                                             *
+*                                                                      *
+* To be used with CASE2 (CAcao Simulation Engine), version 2.2         *
+* This data	file contains soil information used by CASE2           .   *
+*                                                                      *
+************************************************************************
+
+************************************************************************
+* INFORMATION IN PART A OF THIS THIS DATA FILE MAY BE CHANGED          *
+************************************************************************
+
+!======================================================================!
+!                                                                      !
+! PART A. Information may be added to this part of the file.           !  
+!         Please follow the instructions in the User's Manual          !
+!                                                                      !
+!======================================================================!
+
+!---------------------------------!
+! Soil type specifications        !
+!---------------------------------!
+
+* Soil type 1
+* Loamy soil with 4 layers, soil characteristics from Wessel (1971)
+* Nigeria
+NL1    = 4                       ! Number of layers
+TKL1   = 0.10,0.30, 0.30, 1.50   ! Thickness of layers (m)
+TYL1   = 12., 9., 8., 8.         ! Driessen texture classes for layers
+                                ! See table in User's Manual or below 
+
+* Soil type 2
+* Sandy soil taken from Wood & Lass(1985), Table 3.8
+* Brazil, Rondonia
+NL2    = 4                       ! Number of layers
+TKL2   = 0.09,0.14, 0.12, 1.19   ! Thickness of layers (m)
+TYL2   = 1., 7., 9., 14.         ! Driessen texture classes for layers
+                                ! See table in User's Manual or below 
+
+* Soil type 3
+* Clayey soil taken from Wood & Lass(1985), Table 3.17
+* Malaysia, Tawau
+NL3    = 4                       ! Number of layers
+TKL3   = 0.02,0.54, 0.48, 0.52   ! Thickness of layers (m)
+TYL3   = 12., 17., 19., 19.      ! Driessen texture classes for layers
+                                ! See table in User's Manual or below 
+
+* Soil type 4
+* < specify type of soil and information source here > 
+* < specify country and area here >
+NL4    = 0                      ! Number of layers
+TKL4   = 0., 0., 0., 0.         ! Thickness of layers (m)
+TYL4   = 0., 0., 0., 0.         ! Driessen texture classes for layers
+                                ! See table in User's Manual or below 
+* Soil type 5
+* < specify type of soil and information source here > 
+* < specify country and area here >
+NL5    = 0                      ! Number of layers
+TKL5   = 0., 0., 0., 0.         ! Thickness of layers (m)
+TYL5   = 0., 0., 0., 0.         ! Driessen texture classes for layers
+                                ! See table in User's Manual or below 
+* Soil type 6
+* < specify type of soil and information source here > 
+* < specify country and area here >
+NL6    = 0                      ! Number of layers
+TKL6   = 0., 0., 0., 0.         ! Thickness of layers (m)
+TYL6   = 0., 0., 0., 0.         ! Driessen texture classes for layers
+
+* Soil type 7
+* < specify type of soil and information source here > 
+* < specify country and area here >
+NL7    = 0                      ! Number of layers
+TKL7   = 0., 0., 0., 0.         ! Thickness of layers (m)
+TYL7   = 0., 0., 0., 0.         ! Driessen texture classes for layers
+
+* Soil type 8
+* < specify type of soil and information source here > 
+* < specify country and area here >
+NL8    = 0                      ! Number of layers
+TKL8   = 0., 0., 0., 0.         ! Thickness of layers (m)
+TYL8   = 0., 0., 0., 0.         ! Driessen texture classes for layers
+
+
+!======================================================================!
+!                                                                      !
+! PART B. NO changes may be made to this part of the data file.        !  
+!                                                                      !
+!======================================================================!
+
+* Evaporation proportionality factor
+EES = 20.                        ! m-1
+
+* Type of equation used 
+SWIT8 = 1                ! (1) Driessen equation
+                         ! (2) van Genuchten equation
+                         ! (3) Linear interpolation
+
+* Type of soil input
+SWIT9 = 2                ! Use predefined texture classes
+
+* Initialization
+SWIT6 = 1                ! (1) Initial water content field capacity
+                         ! (2) Initial water content user defined
+                         ! (3) Initial water content wilting point
+
+!======================================================================!
+! TABLE WITH RIJTEMA/DRIESSEN SOIL TEXTURE TYPES (Driessen, 1986)      ! 
+!======================================================================!
+
+!----------------------------------------------------------------------!
+!    TYL  Description               TYL  Description                   !
+!                                                                      !
+!      1. Coarse sand                11. Fine sandy loam               !
+!      2. Medium coarse sand (mcs)   12. Silt loam                     !
+!      3. Medium fine sand           13. Loam                          !
+!      4. Fine sand                  14. Sandy clay loam               !
+!      5. Humous loamy mcs           15. Silty clay loam               !
+!      6. Light loamy mcs            16. Clay loam                     !
+!      7. Loamy mcs                  17. Light clay                    !
+!      8. loamy fine sand            18. Silty clay                    !
+!      9. Sandy loam                 19. Heavy clay                    ! 
+!     10. Loess loam                 20. Peat                          !
+!----------------------------------------------------------------------!

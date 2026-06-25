@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Fse - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP4011.TMP" with contents
+[
+/browser:"Debug/" /check:bounds /compile_only /debug:full /include:"Debug/" /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\fse\cacao\case2\Work in progress\Visual Fortran\case2.for"
+]
+Creating temporary file "C:\TEMP\RSP4012.TMP" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Workip.pdb" /debug /machine:I386 /out:"Debug/Workip.exe" /pdbtype:sept 
+".\Debug\afgen.obj"
+".\Debug\case2.obj"
+".\Debug\climrd.obj"
+".\Debug\drpot.obj"
+".\Debug\drsahe.obj"
+".\Debug\Fse.obj"
+".\Debug\gamma2.obj"
+".\Debug\meteo.obj"
+".\Debug\model2.obj"
+".\Debug\nocrop.obj"
+".\Debug\random.obj"
+".\Debug\rndis.obj"
+".\Debug\rngen.obj"
+".\Debug\rnreal.obj"
+".\Debug\sastro.obj"
+".\Debug\setpmd.obj"
+".\Debug\setptd.obj"
+".\Debug\svps1.obj"
+".\Debug\swse.obj"
+".\Debug\totasc.obj"
+".\Debug\wread.obj"
+"..\..\..\..\libs\dvf5\ttutil.lib"
+]
+Creating command line "link.exe @C:\TEMP\RSP4012.TMP"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\fse\cacao\case2\Work in progress\Visual Fortran\case2.for
+Linking...
+
+
+
+<h3>Results</h3>
+Workip.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

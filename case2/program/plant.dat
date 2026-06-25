@@ -1,0 +1,211 @@
+*----------------------------------------------------------------------*
+*                                                                      *
+* Plant data file to be used with CAcao Simultion Engine               *
+* This file contains the Input Parameters							   *                                                                       *
+*----------------------------------------------------------------------*
+
+************************************************************************
+* THE VALUES IN THIS DATA FILE SHOULD NOT BE CHANGED                   *
+************************************************************************
+  
+***********************************
+* Leaves						  *
+***********************************
+
+* Estimated average and minimum leaf age [days]. (Miyaji et al. 1997; Sale 1968)
+  AVGLVAGE = 210.              ![d] average 
+  MINLVAGE =  90.              ![d] minimum
+
+* Specific leaf area (SLA) versus size. Based on regression of data Thong & Ng (1978)
+* Regression parameters for linear regression: y = ax + b (a=SLAR1A, b=SLAR1B, x=WTOTPP, y=SLA)
+  SLAR1A=0.00000732           ![ha leaf kg-1 leaf DW kg-1 plant DW]
+  SLAR1B=0.000898             ![ha leaf kg-1 leaf DW]
+
+* Relative value of the Specific leaf area (SLA) versus relative light availability for cacao trees.
+* Based on regression of data Guers (1971)
+* Regression parameters for logarithmic regression: y = a*Ln(x) + b (a=SLAR2A, b=SLAR2B, x=TRMIS 
+* (transmission of light below shade canopy), y=modifier for SLA value)
+  SLAR2A=-1.772               ![-]
+  SLAR2B=0.9651               ![-]
+       
+***********************************
+* Wood  						  *
+***********************************
+
+* Loss of wood relative to that of leaves. (Ling 1986)
+  WDLVDR = 0.077               ![kg dead wood kg-1 dead leaves]
+
+* Heartwood formation (Comparable with other tree species; Hillis 1987)
+  HRTWDAGE = 3650.             ![d] age at which sapwood transforms into heartwood
+
+***********************************
+* Roots							  *
+***********************************
+
+* Vertical distribution of water uptaking roots 
+* Based on fit of DW / vol of fine roots vs. depth
+* Data sources: Kummerow 1981 and 1982 combined and expressed per volume
+  VDWURTRA=-1.06                    ![-]
+  VDWURTRB=199.9                    ![kg DW ha-1 m-2]
+
+* Fraction roots of fine roots able to take up water (Kummerow, 1981)
+  FWURT = 0.2                       ![-]
+
+* Turnover rate of water-uptaking roots (< 2 mm diameter). (Muñoz & de Beer 2001)
+* All fine roots are estimated to be replaced once per year.
+  RTOWURT = 0.00274                 ![d-1]
+
+* Mean diameter (m) and specific root length (m kg-1) of the two root
+* classes able to take up water (Kummerow, 1981)
+  DIAM1 = 0.00022                   ![m]
+  DIAM2 = 0.0015                    ![m]
+  SPRTL1 = 36000.                   ![m kg-1]
+  SPRTL2 = 3000.                    ![m kg-1]
+
+* Specific weight of wood (Fanshawe 19**, Favrichon 19**, Poorter & Werger 1998)
+* Adding 10% to average value of 550 gives around 600.
+  SW = 600.                         ![kg m-3]
+
+* Loss of non-water uptaking lateral roots relative to that of water
+* uptaking roots. (No source - estimated guess)
+  LRTWURTDR = 0.10                  ![kg dead lateral roots kg-1 dead water-uptaking roots]
+
+***********************************
+* Pods  						  *
+***********************************
+              
+* Minimal dry weight for production of pods [kg DW] (#### SOURCE ###)
+  WTOTMIN=10.                ![kg DW plant-1]
+
+* Sink strength for pod growth, based on Hadley et al. (1994)
+  SSTB  =    0.0,0.0, 0.300,0.05, 0.467,0.17, 0.533,0.41, 0.633,0.94,
+           0.667,1.0, 0.778,0.94, 0.867,0.17,   1.0,0.0,  1.1  ,0.0
+  
+* Butter hardness regression coefficients (Berbert 1976 in Wood & Lass 1986)
+* y = a*x +b (a=BHA; b= BHB); y= BH [-]; x = temp [degr C]
+  BHRA =  0.10                               ![degr C -1]
+  BHRB = -1.01                               ![-]
+
+* Fermentation parameters (Humphries, 1944)
+  FMTA     = -0.015                          ![d-1]
+  FMTB     = 0.96                            ![-]
+
+* Pod development rate parameters, depending on temperature (Hadley et al 1994)
+* y = a*x +b (a=DEVRR1A or DEVR2A; b= DEVRR1B or DEVR2B); y= DEVR [d-1]; x = temp [degr C]
+* Regression set 1 is for temperatures lower than 24.5 degr C 
+  DEVRR1A = 3.600E-4                        ![d-1 degr C -1]	
+  DEVRR1B = -0.00226                        ![d-1]
+  DEVRR2A = 2.048E-4                        ![d-1 degr C -1]
+  DEVRR2B = 0.00154                         ![d-1]
+
+* NPK content of beans (average from Wood & Lass 1986; based on Boyer 1973, Thong & Ng 1978, Omotoso 1975)
+* Note that these values are for BEANS and not for BEANS+HUSKS.
+  NCONTBN = 0.021                           ![kg N kg-1 bean DW]     
+  PCONTBN = 0.0040                          ![kg P kg-1 bean DW]
+  KCONTBN = 0.0095                          ![kg K kg-1 bean DW]
+
+***********************************
+* Photosynthesis				  *
+***********************************
+
+* Photosynthesis parameters
+  AMX    = 16.0     ! [kg CO2 ha-1 leaf h-1] (Miyaji et al 1997)
+  EFF    = 0.45     ! [(CO2 ha-1 h-1)/(J m-2 s-1)] = 12.5 microgram CO2/J 
+  AMINIT = 0.91     ! [-] Correction factor for Amax due to low Amax values for young leaves (Miyaji et al. 1997)
+  AMTMPT = 0.,0., 30.,1., 33.,1., 40.,0.         ! influence of temperature
+  MAXLAI = 10.      ! [m2 leaves m-2 ground] this is the maximum LAI that is
+* 				   ! used in the photosynthesis modules. Larger values give 
+*				   ! computational errors as in that case light availability 
+*				   ! in large part of the canopy is very low.
+
+* Light absorption parameters (### SOURCE ###)
+  KDFL   = 0.60    ! [-] leaves
+  KDFT   = 0.50    ! [-] trunk
+
+***********************************
+* Maintenance					  *
+***********************************
+
+* Maintenance respiration parameters (#### SOURCE ###)
+  Q10    = 2.                  !q10
+  TREF   = 25.                 ![degr C] reference temperature
+
+* Maintenance coefficients (###SOURCE##)
+  MAINLV  = 0.0069             ![kg CH2O kg-1 DW d-1] leaves
+  MAINWD  = 0.0024             ![kg CH2O kg-1 DW d-1] wood
+  MAINLRT = 0.0047             ![kg CH2O kg-1 DW d-1] lateral roots 
+  MAINTRT = 0.0024             ![kg CH2O kg-1 DW d-1] taproot
+  MAINPD  = 0.016              ![kg CH2O kg-1 DW d-1] pods
+
+***********************************
+* Growth						  *
+***********************************
+
+* Growth respiration parameters (#### SOURCE ###)
+  ASRQLRT = 1.49415            ![kg CH2O kg-1 DW d-1] lateral roots
+  ASRQTRT = 1.56871            ![kg CH2O kg-1 DW d-1] taproot
+  ASRQWD  = 1.56871            ![kg CH2O kg-1 DW d-1] wood 
+  ASRQLV  = 1.65600            ![kg CH2O kg-1 DW d-1] leaves 
+
+* Carbon content plant components (#### SOURCE ###)
+  CFLRT = 0.50080              ![kg C kg-1 DW d-1] lateral roots
+  CFTRT = 0.51996              ![kg C kg-1 DW d-1] taproot
+  CFWD  = 0.51996              ![kg C kg-1 DW d-1] wood 
+  CFLV  = 0.46737              ![kg C kg-1 DW d-1] leaves 
+
+* Table of assimilate requirements of pods as a 
+* function on fat content (#### SOURCE ###)
+* (x= fat content, y = growth repsiration (kg CH20.kg DW-1))
+  ASRQPDTB = 0.50,1.72479, .55,1.75554, 0.60,1.78599   ![kg CH2O kg-1 DW d-1]
+
+* Table of C-content of pods as a function on fat content
+* (x= fat content, y = C-content (kg C.kg DW-1))
+  CFPDTB   = 0.50,0.50370 , .55,0.50895, 0.60,0.51413   ![kg C kg-1 DW d-1] 
+
+* Biomass partitioning parameters
+* This set is used to partition assimilates that are used for organ growth, not
+* for renewal of organs. Fractions (F) for roots (RT), leaves (LV), wood in stem 
+* and branches (WD) and pods (PD), all based on regressions (RE).
+* (Thong & Ng 1978, Alpizar et al 1986, Teoh et al 1986, Himme 1959, Opakunle 1991,Aranguren et al 1982)
+  FTRTRA=0.039              ![kg DW taproot kg-1 DW whole plant] 
+  FLRTRA=0.11               ![kg DW lateral roots kg-1 DW whole plant]
+  FLVRA=0.14                ![kg DW leaf kg-1 DW whole plant]
+  FWDRA=0.62                ![kg DW wood kg-1 DW whole plant]
+  FPDRA=0.026               ![kg DW pod kg-1 DW whole plant]
+  FTRTRB=0.36               ![kg DW taproot]
+  FLRTRB=0.67               ![kg DW lateral root]
+  FLVRB=0.43                 ![kg DW leaves kg-1]
+  FWDRB=-0.7                ![kg DW wood]
+  FPDRB=0.5                 ![kg DW pod]
+
+*********************************
+* Miscellaneous parameters      *
+*********************************
+
+* Minimum concentration of reserves (Humphries 1947, Adomako & Hutcheon 1974, Owusu et al. 1978)
+  MINCON = 0.07                                     ![kg CH2O kg-1 DW]
+
+* Time coefficient, delay time 
+  TAU = 5.                                          ![d] 
+
+* Relation between total plant biomass [as y in kg DW] and age [as x, in d], to be used when age is input in model.
+* The relation is of the form y= a*ln(x) + b, where a=AGBIORA and b=AGBIORB
+* (Thong & Ng 1978, Alpizar et al 1986, Teoh et al 1986, Himme 1959, Opakunle 1991,Aranguren et al 1982)
+  AGBIORA=8.4648              ![kg DW d-1]
+  AGBIORB=-40.54             ![kg DW]
+
+***********************************
+* Water troughfall                *
+***********************************
+
+* Regression parameters for the through fall of rain through the cacao canopy. Based on Boyer (1970)
+  TFALA = 0.927;   TFALB = -0.789
+* Stem flow is currently not considered as no good estimates are available
+  STFLA = 0.0  ;   STFLB = 0.0
+
+* ### UITLEG ### (#### SOURCE ###)
+  TRANSC = 1.5               ! [mm day-1]
+
+* Volumetric water content at which water logging occurs
+* ###### IS DEZE WAARDE WEL NODIG: IK DENK EIGENLIJK VAN NIET!! ###
+  WCWET  = 0.50              ! [cm3 cm-3]

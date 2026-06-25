@@ -1,0 +1,56 @@
+************************************************************************
+* File name: RERUNS.DAT                                                *
+*                                                                      *
+* Use      : With CASE2 (Cacao Simulation Engine), version 2.2         *
+* Purpose  : Contains values of input parameters that can be changed.  *
+*            For instance, location, and planting density              *
+************************************************************************
+
+!======================================================================!
+!                                                                      !
+! PART A. EXAMPLE RERUNS                                               !
+!         To use one of the example reruns, simply remove the "*"-sign !
+!         at the start of the line. Do not forget to place an "*" again! 
+!         when you do not wish to do reruns for that parameter.        !
+!======================================================================!
+
+!---------------------------------!
+! Production level                !
+!---------------------------------!
+*When removing the * in the below line, an extra run will be performed 
+*for PRODLEVL = 1 (potential production).    
+*PRODLEVL = 1
+
+!---------------------------------!
+! Soil type                       !
+!---------------------------------!
+*When removing the * in the below lines, 2 extra runs will be performed 
+*for SOILTYPE = 2 and 3 (sandy and clayey soils).    
+* SOILTYPE = 2
+* SOILTYPE = 3
+
+!---------------------------------!
+! Shade level                     !
+!---------------------------------!
+*When removing the * in the below lines, 7 extra runs will be performed 
+*for LAI of the shade tree SLAI = 0 ... 3 (no shading to heavy shading).
+*SLAI = 0.
+*SLAI = 0.5
+*SLAI = 1.
+*SLAI = 1.5
+*SLAI = 2.
+*SLAI = 2.5
+*SLAI = 3.
+
+!======================================================================!
+!                                                                      !
+! PART B. USER-DEFINED RERUNS                                          !
+!         To add a user-defined rerun, simply write one line of the    !
+!         type:     <PARNAME> = <VALUE>                                !
+!         in which <PARNAME> is the name of an input parameter and     !
+!         <VALUE> is the value for which a rerun is wanted.            ! 
+!         To de-select the rerun, simply put an "*" mark in front of   !
+!         the line. More instructions in the User's manual             !
+!                                                                      !
+!======================================================================!
+

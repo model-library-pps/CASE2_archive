@@ -1,0 +1,4 @@
+Compaq Visual Fortran Optimizing Compiler Version 6.6 (Update A)
+Copyright 2001 Compaq Computer Corp. All rights reserved.
+
+case2.for

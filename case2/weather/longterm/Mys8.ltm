@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Malaysia
+*   Station: Kuala Trengganu
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 103 08 E
+*  Latitude: 05 20 N
+* Elevation: 34 m.
+*  WMO-code: 48.6190
+*  Comments: Number of rain days added from Mueller database						
+*            February 2002, Pieter Zuidema						
+*						
+*  Columns:						
+*  ========						
+*  minimum temperature (degrees Celsius)						
+*  maximum temperature (degrees Celsius)						
+*  irradiation (MJ m-2 d-1)						
+*  vapour pressure (kPa)						
+*  mean wind speed (m s-1)						
+*  precipitation (mm month-1)						
+*  number of rain days						
+*---------------------------------------------------------*						
+Kuala	Malaysia					
+1000	5.33	34.	0.00	0.00		
+22.4	27.9	16.806	2.71	2.7	292.	19.
+22.5	28.9	20.059	2.76	2.5	163.	13.
+22.8	30.1	21.654	2.88	2.3	160.	12.
+23.2	31.3	22.094	3.02	2.0	155.	10.
+23.6	32.0	20.025	3.12	2.1	135.	12.
+23.3	31.6	18.748	3.03	1.9	109.	10.
+23.1	31.3	18.728	2.99	1.9	117.	12.
+22.9	31.1	18.991	2.95	1.9	147.	12.
+22.9	31.1	19.142	2.96	1.9	190.	17.
+23.0	30.2	17.966	2.96	1.9	279.	20.
+22.9	28.8	15.872	3.01	2.1	610.	22.
+22.9	28.1	14.872	2.88	2.9	554.	23.

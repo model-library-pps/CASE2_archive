@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Papua New Guinea
+*   Station: Madang
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 145 47 E
+*  Latitude: 05 13 S
+* Elevation: 4 m.
+*  WMO-code: 94.0140
+*  Comments: Number of rain days added from Mueller database						
+*            February 2002, Pieter Zuidema						
+*						
+*  Columns:						
+*  ========						
+*  minimum temperature (degrees Celsius)						
+*  maximum temperature (degrees Celsius)						
+*  irradiation (MJ m-2 d-1)						
+*  vapour pressure (kPa)						
+*  mean wind speed (m s-1)						
+*  precipitation (mm month-1)						
+*  number of rain days						
+*---------------------------------------------------------*						
+Madang	Papua New Guinea					
+1000	-5.22	4.	0.00	0.00		
+23.2	30.2	17.781	3.01	1.0	359.	15.
+23.1	30.1	17.857	2.96	1.0	292.	14.
+23.2	30.1	17.421	2.98	0.5	344.	17.
+23.2	29.9	17.141	3.03	0.5	443.	16.
+23.3	30.2	17.484	3.10	0.5	337.	15.
+22.9	29.8	16.722	3.06	0.5	209.	10.
+22.9	29.6	16.475	2.99	0.1	166.	10.
+22.9	29.7	18.548	2.98	0.5	128.	8.
+22.9	29.9	19.473	2.96	0.5	144.	9.
+22.9	30.1	19.866	2.98	0.1	301.	10.
+23.0	30.2	19.372	2.99	0.1	387.	12.
+23.2	30.1	17.601	3.01	0.5	379.	16.

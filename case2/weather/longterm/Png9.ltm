@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Papua New Guinea
+*   Station: Rabaul
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 152 12 E
+*  Latitude: 04 13 S
+* Elevation: 4 m.
+*  WMO-code: 94.0850
+*  Comments: Number of rain days added from Mueller database						
+*            February 2002, Pieter Zuidema						
+*						
+*  Columns:						
+*  ========						
+*  minimum temperature (degrees Celsius)						
+*  maximum temperature (degrees Celsius)						
+*  irradiation (MJ m-2 d-1)						
+*  vapour pressure (kPa)						
+*  mean wind speed (m s-1)						
+*  precipitation (mm month-1)						
+*  number of rain days						
+*---------------------------------------------------------*						
+Rabaul	Papua New Guinea					
+1000	-4.22	4.	0.00	0.00		
+23.2	30.9	17.940	3.05	1.0	230.	14.
+23.2	30.9	18.740	3.08	1.0	244.	13.
+23.3	30.7	17.425	3.07	0.5	256.	15.
+23.3	30.8	17.245	3.08	0.5	209.	11.
+23.6	31.2	17.116	3.07	2.1	129.	6.
+23.3	30.9	15.885	3.01	2.6	114.	6.
+23.2	30.4	15.466	2.92	3.6	104.	8.
+23.2	30.7	16.676	2.89	3.1	103.	8.
+23.4	31.4	17.823	2.88	3.1	94.	5.
+23.3	31.6	18.853	2.97	2.6	118.	8.
+23.3	31.3	18.430	2.97	1.5	173.	10.
+23.2	30.9	16.952	3.08	0.5	238.	13.

@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Brazil
+*   Station: Belem
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 048 28 W
+*  Latitude: 01 27 S
+* Elevation: 24 m.
+*  WMO-code: 82.1910
+*  Comments: Number of rain days added from Mueller database
+*            February 2002, Pieter Zuidema
+*
+*  Columns:
+*  ========
+*  minimum temperature (degrees Celsius)
+*  maximum temperature (degrees Celsius)
+*  irradiation (MJ m-2 d-1)
+*  vapour pressure (kPa)
+*  mean wind speed (m s-1)
+*  precipitation (mm month-1)
+*  number of rain days
+*---------------------------------------------------------*
+Belem	Brazil					
+1000	-1.45	24.	0.00	0.00		
+22.6	31.0	16.998	2.84	0.6	325.	27.
+22.7	30.4	15.910	2.86	0.6	406.	26.
+22.8	30.3	15.952	2.88	0.6	429.	28.
+23.0	30.8	16.412	2.92	0.6	318.	27.
+22.9	31.4	17.710	2.90	0.7	296.	26.
+22.5	31.8	18.799	2.81	0.8	153.	22.
+22.2	31.7	20.055	2.75	0.8	138.	17.
+22.1	32.0	21.143	2.78	0.9	119.	15.
+22.0	31.9	21.604	2.78	0.8	131.	18.
+22.0	32.0	22.148	2.81	0.9	110.	15.
+22.1	32.2	21.311	2.81	1.0	114.	13.
+22.4	31.8	19.845	2.83	0.8	196.	19.

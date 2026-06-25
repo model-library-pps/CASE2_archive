@@ -1,0 +1,40 @@
+*---------------------------------------------------------*
+*   Country: Cote d'Ivoire
+*   Station: Gagnoa
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 005 57 W
+*  Latitude: 06 08 N
+* Elevation: 214 m.
+*  WMO-code: 65.5570
+*  Comments: Number of rain days from 12-year observation data (1986-1997)						
+*            February 2002, Pieter Zuidema						
+*						
+*  Columns:						
+*  ========						
+*  minimum temperature (degrees Celsius)						
+*  maximum temperature (degrees Celsius)						
+*  irradiation (MJ m-2 d-1)						
+*  vapour pressure (kPa)						
+*  mean wind speed (m s-1)						
+*  precipitation (mm month-1)						
+*  number of rain days						
+*---------------------------------------------------------*						
+Gagnoa	Ivory Coast					
+1000	6.13	214.	0.00	0.00		
+20.8	31.3	16.831	2.52	0.3	31.	2.
+22.3	32.5	18.254	2.67	0.6	68.	5.
+22.1	32.5	19.259	2.70	0.5	146.	10.
+22.2	32.2	19.134	2.78	0.5	153.	12.
+22.1	31.3	18.003	2.80	0.4	191.	14.
+22.0	29.8	16.077	2.71	0.5	226.	16.
+21.5	28.3	15.114	2.56	0.5	91.	11.
+21.3	28.0	14.403	2.55	0.4	70.	14.
+21.6	29.0	15.659	2.61	0.6	182.	16.
+22.0	30.1	17.543	2.68	0.4	159.	15.
+22.0	30.5	17.291	2.71	0.4	101.	8.
+21.2	30.0	16.077	2.63	0.3	62.	4.
+

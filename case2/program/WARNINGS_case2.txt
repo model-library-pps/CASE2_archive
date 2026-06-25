@@ -1,0 +1,75 @@
+case2.for(252) : Warning: Source line truncated.
+         CALL RDSREA ('AMX'   , AMX   )          ![kg CO2 ha-1 leaf h-1] 
+------------------------------------------------------------------------^
+case2.for(315) : Warning: Source line truncated.
+         CALL RDSREA ('FLRTRB' , FLRTRB)         ![kg DW lateral root]    
+------------------------------------------------------------------------^
+case2.for(426) : Warning: Source line truncated.
+           WTRTI  = (FTRTRA*WTOTI+FTRTRB)*PRSCALE/WTOTI*NPL ![kg DW ha-1]
+------------------------------------------------------------------------^
+case2.for(737) : Warning: Source line truncated.
+           GWURT1  = 0.                          ![kg DW ha-1 d-1]          
+------------------------------------------------------------------------^
+case2.for(775) : Warning: Source line truncated.
+     &              (FLRTRA*WTOTPP+FLRTRB)/WTOTPP*(2-PCEW)           ![-]
+------------------------------------------------------------------------^
+case2.for(64) : Info: This variable has not been used.   [IUNITO]
+      SUBROUTINE CASE2  (PLTMOD, ITASK , IUNITD, IUNITO, IUNITL, FILEI1,
+-------------------------------------------------^
+case2.for(106) : Info: This variable has not been used.   [WRTI]
+      REAL NPL, WWDI, WLVI, WPDI, WRTI, WLRTI, WTRTI 
+----------------------------------^
+case2.for(108) : Info: This variable has not been used.   [SLAI]
+      REAL SLAI
+-----------^
+case2.for(172) : Info: This variable has not been used.   [RTOLV]
+      REAL RTOLV, TOLV
+-----------^
+case2.for(174) : Info: This variable has not been used.   [RTOPD]
+      REAL RTOPD, TOPD
+-----------^
+case2.for(1359) : Info: This variable has not been used.   [AGE]
+      SUBROUTINE LEAF (ITASK,IUNITD,IUNITL,FILEI1,TERMNL,DELT,AGE,NPL,
+--------------------------------------------------------------^
+case2.for(1359) : Info: This variable has not been used.   [NPL]
+      SUBROUTINE LEAF (ITASK,IUNITD,IUNITL,FILEI1,TERMNL,DELT,AGE,NPL,
+------------------------------------------------------------------^
+case2.for(1376) : Info: This variable has not been used.   [IPLD]
+      INTEGER ITABLE, I1, ILD, IPLD
+-------------------------------^
+case2.for(1382) : Info: This variable has not been used.   [LINT]
+      REAL LINT, NOTNUL
+-----------^
+case2.for(1554) : Info: This variable has not been used.   [DELT]
+      SUBROUTINE ROOT (ITASK,IUNITD,IUNITL,FILEI1,DELT,NL,NLA,NLXM,NLBM,
+--------------------------------------------------^
+case2.for(1555) : Info: This variable has not been used.   [AGE]
+     &              I1, TKL, CUMTKL, WCLQT, WCWPX, AGE, NPL, FWURT,
+---------------------------------------------------^
+case2.for(1571) : Info: This variable has not been used.   [GLRT]
+      REAL GLRT, DLRT
+-----------^
+case2.for(1571) : Info: This variable has not been used.   [DLRT]
+      REAL GLRT, DLRT
+-----------------^
+case2.for(1621) : Info: This variable has not been used.   [INTGRL]
+      REAL INTGRL, LINT
+-----------^
+case2.for(1621) : Info: This variable has not been used.   [LINT]
+      REAL INTGRL, LINT
+-------------------^
+case2.for(1844) : Info: This variable has not been used.   [LIMIT]
+      REAL LIMIT        
+-----------^
+case2.for(2102) : Warning: Variable IYEAR is used before its value has been defined
+          WRITE (*,*) IYEAR,IDOY
+----------------------^
+case2.for(2102) : Warning: Variable IDOY is used before its value has been defined
+          WRITE (*,*) IYEAR,IDOY
+----------------------------^
+case2.for(1493) : Warning: Variable IYEAR is used before its value has been defined
+          WRITE (*,*) IYEAR,IDOY
+----------------------^
+case2.for(1493) : Warning: Variable IDOY is used before its value has been defined
+          WRITE (*,*) IYEAR,IDOY
+----------------------------^

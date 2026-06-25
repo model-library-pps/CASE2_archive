@@ -1,0 +1,40 @@
+*---------------------------------------------------------*
+*   Country: Colombia
+*   Station: Villavicencio
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 073 37 W
+*  Latitude: 04 10 N
+* Elevation: 423 m.
+*  WMO-code: 80.2340
+*  Comments: Number of rain days added from Mueller database				
+*            February 2002, Pieter Zuidema				
+*				
+*  Columns:				
+*  ========				
+*  minimum temperature (degrees Celsius)				
+*  maximum temperature (degrees Celsius)				
+*  irradiation (MJ m-2 d-1)				
+*  vapour pressure (kPa)				
+*  mean wind speed (m s-1)				
+*  precipitation (mm month-1)				
+*  number of rain days				
+*---------------------------------------------------------*				
+Villavicencio	Colombia			
+1000	4.17	423.	0.00	0.00
+21.3	31.9	17.626	2.61	0.4	61.	5.
+22.1	31.7	18.422	2.51	0.3	113.	7.
+22.2	32.0	16.915	2.58	0.2	159.	10.
+21.0	30.6	15.282	2.69	0.1	461.	20.
+20.8	30.3	14.863	2.69	0.1	605.	23.
+20.6	30.1	14.947	2.69	0.1	498.	21.
+20.5	29.8	16.161	2.56	0.1	524.	22.
+20.3	30.7	17.794	2.57	0.1	360.	19.
+20.6	31.4	18.254	2.69	0.1	335.	16.
+20.7	31.9	16.915	2.77	0.1	443.	19.
+20.5	31.9	16.370	2.72	0.1	381.	17.
+20.1	31.8	16.663	2.62	0.2	156.	9.
+

@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Brazil
+*   Station: Salvador
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 038 20 W
+*  Latitude: 12 54 S
+* Elevation: 6 m.
+*  WMO-code: 83.2480
+*  Comments: Number of rain days added from Mueller database
+*            February 2002, Pieter Zuidema
+*
+*  Columns:
+*  ========
+*  minimum temperature (degrees Celsius)
+*  maximum temperature (degrees Celsius)
+*  irradiation (MJ m-2 d-1)
+*  vapour pressure (kPa)
+*  mean wind speed (m s-1)
+*  precipitation (mm month-1)
+*  number of rain days
+*---------------------------------------------------------*
+Salvador	Brazil					
+1000	-12.9	6.	0.00	0.00		
+22.7	29.4	22.818	2.70	2.0	69.	14.
+23.0	29.6	22.986	2.74	1.9	104.	16.
+23.0	29.4	20.390	2.76	1.8	161.	19.
+22.9	28.7	18.003	2.75	2.0	279.	22.
+22.1	27.5	15.114	2.61	2.2	287.	25.
+21.1	26.5	14.905	2.34	1.8	216.	24.
+20.4	25.6	14.696	2.30	2.2	193.	24.
+20.4	25.8	17.291	2.26	2.2	117.	20.
+20.9	26.8	18.966	2.40	2.1	79.	16.
+21.6	27.6	20.934	2.50	2.3	94.	14.
+22.0	28.2	21.604	2.60	2.3	129.	15.
+22.0	29.4	21.855	2.61	2.1	120.	14.

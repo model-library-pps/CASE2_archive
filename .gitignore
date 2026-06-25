@@ -35,8 +35,8 @@
 *.lib
 
 # Executables
-*.exe
-*.out
+#*.exe
+#*.out
 *.app
 
 # Build directories

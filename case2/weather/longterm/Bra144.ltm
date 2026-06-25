@@ -1,0 +1,39 @@
+*---------------------------------------------------------*
+*   Country: Brazil
+*   Station: Vitoria
+*      Year: Long-term Climatic Data
+*    Source: FAOCLIM Global Weather Database - Release
+*            20 July 1990.
+*    Author: Agrometeorology group, Remote Sensing Centre,
+*            Research and Technology Division, FAO.
+* Longitude: 040 20 W
+*  Latitude: 20 19 S
+* Elevation: 36 m.
+*  WMO-code: 83.6480
+*  Comments: Number of rain days added from Mueller database
+*            February 2002, Pieter Zuidema
+*
+*  Columns:
+*  ========
+*  minimum temperature (degrees Celsius)
+*  maximum temperature (degrees Celsius)
+*  irradiation (MJ m-2 d-1)
+*  vapour pressure (kPa)
+*  mean wind speed (m s-1)
+*  precipitation (mm month-1)
+*  number of rain days
+*---------------------------------------------------------*
+Vitoria	Brazil					
+1000	-20.32	36.	0.00	0.00		
+22.7	29.9	22.399	2.60	2.4	151.	14.
+23.0	30.5	22.399	2.64	2.3	118.	12.
+22.6	30.0	19.469	2.62	2.2	150.	15.
+21.4	28.4	16.454	2.48	2.1	130.	14.
+19.9	27.1	14.738	2.21	2.0	90.	11.
+18.9	26.2	13.398	2.07	1.9	66.	8.
+18.1	25.2	13.481	1.93	2.1	72.	12.
+18.4	25.7	16.077	1.96	2.3	48.	9.
+19.4	26.2	16.747	2.10	2.6	85.	10.
+20.3	26.6	17.836	2.22	2.8	135.	16.
+21.0	27.3	18.296	2.37	2.7	169.	17.
+21.9	28.6	19.594	2.50	2.7	191.	16.
