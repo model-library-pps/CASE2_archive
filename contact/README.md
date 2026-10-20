@@ -1,8 +1,7 @@
-**Author(s)**\
+**Original author(s)**\
 Pieter A. Zuidema & Peter A. Leffelaar
 
-**Address**\
-WUR, Plant Production Systems, P.O. Box 430, 6700 AK Wageningen, The Netherlands
+CASE2 is an archive model. It is not actively maintained and, in principle, PPS also does not provide support in using it. If you are nevertheless interested in this model, you could try to send an e-mail:
 
 **Email**\
-peter.leffelaar@wur.nl
+herman.berghuijs@wur.nl
